@@ -1,0 +1,133 @@
+:root {
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+
+    --font1: "Raleway", sans-serif;
+    --font2: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font2);
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header {
+    font-family: var(--font1);
+    color: var(--desaturated-blue);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__figure {
+    max-width: 100px;
+}
+.nav__logo {
+    display: block;
+    width: 80%;
+}
+.nav__ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+.section__figure {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.section__img {
+    display: block;
+    width: 100%;
+}
+.section__info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section__title {
+    font-family: var(--font1);
+    font-size: 1.8rem;
+    color: var(--very-dark-blue);
+}
+.section__paragraph {
+    color: var(--desaturated-blue);
+}
+.section__form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 1em;
+}
+.section__form input {
+    padding: 0.8em;
+    color: var(--light-grayish-blue);
+    border-radius: 0.3em;
+    border: 1px solid var(--desaturated-blue);
+}
+.section__submit {
+    background-color: var(--bright-blue);
+    border: none;
+    font-family: var(--font1);
+    font-weight: 700;
+}
+.section__link {
+    color: var(--moderate-cyan);
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.section__link .section__img {
+    width: 1.3em;
+    display: inline;
+}
+.section__card {
+    box-shadow: var(--light-gray) 0 0 15px;
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1em;
+    color: var(--very-dark-blue);
+    gap: .7em;
+}
+.card__paragraph {
+    font-size: 11px;
+}
+.card__profile {
+    display: flex;
+    gap: .8em;
+    align-items: center;
+}
+.card__figure {
+    max-width: 40px;
+}
+.card__photo {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+.card__name {
+    font-family: var(--font1);
+    font-size: 1rem;
+}
+.card__position {
+    color: var(--desaturated-blue);
+    font-size: .7rem;
+}

@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth@75..100&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -25,35 +38,73 @@
     </header>
     <main class="main">
       <section class="section">
-        <figure class="section__figure"><img src="./images/illustration-1.svg" alt="illustration 1"></figure>
+        <figure class="section__figure">
+          <img
+            src="./images/illustration-1.svg"
+            alt="illustration 1"
+            class="section__img"
+          />
+        </figure>
         <div class="section__info">
-          <h1 class="section__title">All your files in one secure location, accessible anywhere.</h1>
-          <p class="section__paragraph">Fylo stores your most important files in one secure location. 
-            Access them wherever you need, share and collaborate with friends, 
-            family, and co-workers.</p>
+          <h1 class="section__title">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="section__paragraph">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
           <form action="" class="section__form">
-            <input type="text" placeholder="Enter your email..." class="section__input">
-              <input type="submit" value="Get Started" class="section__submit">
-            </input>
+            <input
+              type="text"
+              placeholder="Enter your email..."
+              class="section__input"
+            />
+            <input type="submit" value="Get Started" class="section__submit" />
           </form>
         </div>
       </section>
       <section class="section">
-        <figure class="section__figure"><img src="./images/illustration-2.svg" alt="illustration 2" class="section__img"></figure>
+        <figure class="section__figure">
+          <img
+            src="./images/illustration-2.svg"
+            alt="illustration 2"
+            class="section__img"
+          />
+        </figure>
         <section class="section__info">
           <h2 class="section__subtitle">Stay productive, wherever you are</h2>
-          <p class="section__paragraph">Never let location be an issue when accessing your files. Fylo has you 
-            covered for all of your file storage needs.
-          
-            Securely share files and folders with friends, family and colleagues for 
-            live collaboration. No email attachments required!</p>
-          <p class="section__link">See how Fylo works <img class="section__img" src="./images/icon-arrow.svg" alt=""></p>
+          <p class="section__paragraph">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs. Securely share files
+            and folders with friends, family and colleagues for live
+            collaboration. No email attachments required!
+          </p>
+          <p class="section__link">
+            See how Fylo works
+            <img class="section__img" src="./images/icon-arrow.svg" alt="" />
+          </p>
           <div class="section__card card">
-            <figure class="card__icon"><img src="./images/icon-quotes.svg" alt="icon" class="card__icon"></figure>
-            <p class="card__paragraph">Fylo has improved our team productivity by an order of magnitude. Since 
-              making the switch our team has become a well-oiled collaboration machine.</p>
+            <figure class="card__icon">
+              <img
+                src="./images/icon-quotes.svg"
+                alt="icon"
+                class="card__icon"
+              />
+            </figure>
+            <p class="card__paragraph">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
             <div class="card__profile">
-              <figure class="card__figure"><img src="./images/avatar-testimonial.jpg" alt="avatar-testimonial" class="card__photo"></figure>
+              <figure class="card__figure">
+                <img
+                  src="./images/avatar-testimonial.jpg"
+                  alt="avatar-testimonial"
+                  class="card__photo"
+                />
+              </figure>
               <div class="card__data">
                 <h2 class="card__name">Kyle Burton</h2>
                 <p class="card__position">Founder & CEO, Huddle</p>
@@ -64,19 +115,46 @@
       </section>
       <aside class="aside">
         <h2 class="aside__title">Get early access today</h2>
-        <p class="aside__paragraph">It only takes a minute to sign up and our free starter tier is extremely generous. 
-          If you have any questions, our support team would be happy to help you.</p>
+        <p class="aside__paragraph">
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
         <form action="" class="aside__form">
-          <input type="text" name="" id="" placeholder="email@example.com" class="aside__input">
-          <input type="submit" value="Get Started For Free" class="aside__submit">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="email@example.com"
+            class="aside__input"
+          />
+          <input
+            type="submit"
+            value="Get Started For Free"
+            class="aside__submit"
+          />
         </form>
       </aside>
     </main>
     <footer class="footer">
-      <figure class="footer__figure"><img src="./images/logo.svg" alt="logo" class="footer__logo"></figure>
+      <figure class="footer__figure">
+        <img src="./images/logo.svg" alt="logo" class="footer__logo" />
+      </figure>
       <div class="footer__section">
-        <p class="footer__contact"><img src="./images/icon-phone.svg" alt="Phone" class="footer__img">Phone: +1-543-123-4567</p>
-        <p class="footer__contact"><img src="./images/icon-email.svg" alt="email" class="footer__img">example@fylo.com</p>
+        <p class="footer__contact">
+          <img
+            src="./images/icon-phone.svg"
+            alt="Phone"
+            class="footer__img"
+          />Phone: +1-543-123-4567
+        </p>
+        <p class="footer__contact">
+          <img
+            src="./images/icon-email.svg"
+            alt="email"
+            class="footer__img"
+          />example@fylo.com
+        </p>
       </div>
       <ul class="footer__section">
         <li class="footer__li">About Us</li>
@@ -90,9 +168,27 @@
         <li class="footer__li">Privacy</li>
       </ul>
       <ul class="footer__rrss">
-        <li class="footer__link"><img src="./images/icon-facebook.svg" alt="facebook" class="footer__icon"></li>
-        <li class="footer__link"><img src="./images/icon-twitter.svg" alt="twitter" class="footer__icon"></li>
-        <li class="footer__link"><img src="./images/icon-instagram.svg" alt="instagram" class="footer__icon"></li>
+        <li class="footer__link">
+          <img
+            src="./images/icon-facebook.svg"
+            alt="facebook"
+            class="footer__icon"
+          />
+        </li>
+        <li class="footer__link">
+          <img
+            src="./images/icon-twitter.svg"
+            alt="twitter"
+            class="footer__icon"
+          />
+        </li>
+        <li class="footer__link">
+          <img
+            src="./images/icon-instagram.svg"
+            alt="instagram"
+            class="footer__icon"
+          />
+        </li>
       </ul>
     </footer>
     <!-- 
