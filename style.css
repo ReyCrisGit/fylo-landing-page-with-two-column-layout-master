@@ -17,17 +17,18 @@
 }
 body {
     font-family: var(--font2);
-    padding: 20px;
     max-width: 1440px;
     margin: 0 auto;
 }
 header {
     font-family: var(--font1);
     color: var(--desaturated-blue);
+    padding: 20px;
 }
 .nav {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 4em;
 }
 .nav__figure {
     max-width: 100px;
@@ -46,6 +47,8 @@ header {
 .section {
     display: flex;
     flex-direction: column;
+    padding: 0 20px;
+    gap: 2em;
 }
 .section__figure {
     max-width: 400px;
@@ -62,21 +65,22 @@ header {
     gap: 30px;
 }
 .section__title {
-    font-family: var(--font1);
+    font-weight: 700;
     font-size: 1.8rem;
     color: var(--very-dark-blue);
 }
 .section__paragraph {
-    color: var(--desaturated-blue);
+    color: var(--very-dark-blue);
 }
 .section__form {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     gap: 1em;
+    padding-bottom: 6em;
 }
 .section__form input {
-    padding: 0.8em;
+    padding: 1em;
     color: var(--light-grayish-blue);
     border-radius: 0.3em;
     border: 1px solid var(--desaturated-blue);
@@ -87,11 +91,33 @@ header {
     font-family: var(--font1);
     font-weight: 700;
 }
+.section__background img {
+    display: block;
+}
+.section__two {
+    background-color: var(--light-grayish-blue);
+    padding-top: 2em;
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+.section__two__subtitle {
+    font-family: var(--font1);
+    font-size: 1.2rem;
+}
+.section__two__paragraph {
+    text-align: left;
+}
 .section__link {
     color: var(--moderate-cyan);
     display: flex;
     justify-content: center;
     gap: 1em;
+    border-bottom: 1px solid var(--moderate-cyan);
+    width: max-content;
+    margin: 0 auto;
+    padding-bottom: 5px;
 }
 .section__link .section__img {
     width: 1.3em;
@@ -130,4 +156,80 @@ header {
 .card__position {
     color: var(--desaturated-blue);
     font-size: .7rem;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--desaturated-blue);
+    text-align: center;
+    padding: 20px 20px 5em 20px;
+    gap: 1.8em;
+}
+.aside__title {
+    color: var(--light-grayish-blue);
+    font-size: 1.2em;
+    padding-top: 1em;
+}
+.aside__paragraph {
+    color: var(--light-grayish-blue);
+    font-size: 16px;
+}
+.aside__form {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 0px 40px;
+}
+.aside__input {
+    padding: 1em;
+    border: none;
+    border-radius: .2em;
+}
+.aside__submit {
+    background-color: var(--bright-blue);
+    color: var(--light-grayish-blue);
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--very-dark-blue);
+    padding: 0 20px;
+    color: var(--light-grayish-blue);
+    gap: 3em;
+    padding-bottom: 9em;
+    
+}
+.footer__figure {
+    padding-top: 3em;
+}
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.footer__contact {
+    display: flex;
+    gap: 1em;
+}
+.footer__ul {
+    list-style: none;
+}
+.footer__rrss {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1em;
+}
+.footer__link {
+    border-radius: 50%;
+    border: 1px solid var(--light-grayish-blue);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
 }
